@@ -8,20 +8,15 @@ const Navbar = () => {
     <nav>
       {/* Outer-most Div */}
       <div
-        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}
+        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-7`}
       >
-        <h3 className={"font-lora"} >Johnny.dev</h3>
-        {/* Inner div that takes a size of 5/6 of outer div */}
-        <div className={`${flexBetween} mx-auto w-5/6`}> 
+        <h3 className={"ml-8 font-roboto font-bold text-xl cursor-pointer"} >Johnny.dev</h3>
+   
+        <div className={`${flexBetween}  font-roboto  w-1/5 text-xl`}> 
 
-          {/* Inner div that takes 5/6 of outer div */}
-          <div className={`${flexBetween} w-full gap-16`}>
-            {/* LEFT SIDE OF NAVBAR */}
-
-            <div></div>
 
             {/* RIGHT SIDE OF NAVBAR */}
-            <div className={`${flexBetween} w-full `}>
+            <div className={`${flexBetween} w-full font-roboto font-medium text-lg mr-20 `}>
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
@@ -30,7 +25,6 @@ const Navbar = () => {
 
           </div>
         </div>
-      </div>
     </nav>
   );
 };
