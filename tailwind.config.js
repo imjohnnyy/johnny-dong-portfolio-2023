@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         lora: "'Lora', serif",
         roboto: "'Roboto', sans-serif"
+      },
+      colors: {
+        gray: "#2d2e32"
       }
     },
   },
