@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const flexBetween = "flex items-center justify-between";
-  const navbarBackground = "bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900";
+  const navbarBackground = "bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 shadow-md";
 
   return (
     <nav>
@@ -16,11 +16,11 @@ const Navbar = () => {
 
 
             {/* RIGHT SIDE OF NAVBAR */}
-            <div className={`${flexBetween} w-full font-roboto font-medium text-lg mr-20 `}>
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+            <div className={`${flexBetween} w-full font-robotofont-medium text-lg mr-20 `}>
+              <Link className={"hover:text-sky-600"}to="/">Home</Link>
+              <Link className={"hover:text-sky-600"} to="/about">About</Link>
+              <Link className={"hover:text-sky-600"} to="/projects">Projects</Link>
+              <Link className={"hover:text-sky-600"} to="/contact">Contact</Link>
             </div>
 
           </div>
