@@ -10,6 +10,7 @@ module.exports = {
         roboto: "'Roboto', sans-serif"
       },
       colors: {
+        lightgray: "#7d7983",
         gray: "#2d2e32"
       }
     },
