@@ -1,6 +1,9 @@
 import WavingEmoji from "../assets/images/WavingEmoji.png";
 import ProfilePicture from "../assets/images/Johnny_Dong.png"
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 
 const Home = () => {
 
@@ -19,7 +22,41 @@ const Home = () => {
         <div className={"w-1/6 ml-[205px] mt-[-110px]"}>
            <LocationOnIcon style={ {color: '#ef4444'}} />
         </div>
-
+      <div className={"flex item-start w-1/5"}>
+      <LinkedInIcon
+          onClick={() => window.open('https://nz.linkedin.com/in/johnny-dong-', '_blank')}
+          style={{
+            fontSize: 40,
+            color: "#2d2e32",
+            margin: 15,
+            marginLeft: -5,
+            marginTop: 24,
+            cursor: "pointer",
+          }}
+        />
+      <GitHubIcon
+          onClick={() => window.open('https://github.com/imjohnnyy', '_blank')}
+          style={{
+            fontSize: 36,
+            color: "#2d2e32",
+            margin: 15,
+            marginLeft: -5,
+            marginTop: 26,
+            cursor: "pointer",
+          }}
+        />
+        <EmailIcon
+          onClick={() => window.location = 'mailto:imjohnnydong@gmail.com'}
+          style={{
+            fontSize: 43,
+            color: "#2d2e32",
+            margin: 15,
+            marginLeft: -5,
+            marginTop: 23,
+            cursor: "pointer",
+          }}
+        />
+      </div>
     </div>
   );
 };
