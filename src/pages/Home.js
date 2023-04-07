@@ -8,6 +8,9 @@ import ReactIcon from "../assets/images/React_Icon.png"
 import JavaScriptIcon from "../assets/images/JavaScript_Icon.png"
 import HTMLIcon from "../assets/images/html_icon.png"
 import CSSIcon from "../assets/images/css_icon.png"
+import TailWindCSSIcon from "../assets/images/tailwind_css_icon.png"
+import BootStrapIcon from "../assets/images/bootstrap-icon.png"
+
 
 const Home = () => {
 
@@ -65,22 +68,31 @@ const Home = () => {
               className={"hover:fill-sky-600"}
             />  
         </div>
+
+        {/* Skills section */}
         <div className={"flex items-center mt-[100px] w-3/4"}>
             <p className={"text-xl font-semibold text-gray mr-20"}>Front-End</p>
             <div className="ml-5">
-              <ul className="flex ml-2">
-                <li className="border-2 border-indigo-600 rounded-full w-[68px] h-[68px] bg-white">
-                  <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={ReactIcon} alt="react_icon"></img>
+              <ul className="flex ml-2 ">
+                <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white ">
+                  <img className={"w-[42px] h-[38px] ml-[11px] mt-[13px] bg-white -bottom-10 "} src={ReactIcon} alt="react_icon"></img>
                 </li>
-                <li className="ml-5 border-2 border-indigo-600 rounded-full w-[68px] h-[68px] bg-white">
-                  <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={JavaScriptIcon} alt="javascript_icon"></img>
+                <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
+                  <img className={"w-[40px] h-[40px] ml-[12px] mt-[12px] bg-white"} src={JavaScriptIcon} alt="javascript_icon"></img>
                 </li>
-                <li className="ml-5 border-2 border-indigo-600 rounded-full w-[68px] h-[68px] bg-white">
-                  <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={HTMLIcon} alt="html_icon"></img>
+                <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
+                  <img className={"w-[40px] h-[40px] ml-[12px] mt-[13px] bg-white"} src={HTMLIcon} alt="html_icon"></img>
                 </li>
-                <li className="ml-5 border-2 border-indigo-600 rounded-full w-[68px] h-[68px] bg-white">
-                  <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={CSSIcon} alt="css_icon"></img>
+                <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
+                  <img className={"w-[36px] h-[40px] ml-[14px] mt-[13px] bg-white"} src={CSSIcon} alt="css_icon"></img>
                 </li>
+                <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
+                  <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={TailWindCSSIcon} alt="tailwind_css_icon"></img>
+                </li>
+                <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
+                  <img className={"w-[46px] h-[40px] ml-[10px] mt-[10px] bg-white"} src={BootStrapIcon} alt="bootstrap_icon"></img>
+                </li>
+                
             </ul>
             </div>
         </div>
