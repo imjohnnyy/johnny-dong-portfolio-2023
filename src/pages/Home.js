@@ -33,6 +33,7 @@ const Home = () => {
             marginTop: 24,
             cursor: "pointer",
           }}
+          className={"hover:fill-sky-600"}
         />
       <GitHubIcon
           onClick={() => window.open('https://github.com/imjohnnyy', '_blank')}
@@ -44,6 +45,7 @@ const Home = () => {
             marginTop: 26,
             cursor: "pointer",
           }}
+          className={"hover:fill-sky-600"}
         />
         <EmailIcon
           onClick={() => window.location = 'mailto:imjohnnydong@gmail.com'}
@@ -55,6 +57,7 @@ const Home = () => {
             marginTop: 23,
             cursor: "pointer",
           }}
+          className={"hover:fill-sky-600"}
         />
       </div>
     </div>

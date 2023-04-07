@@ -14,6 +14,9 @@ module.exports = {
         gray: "#2d2e32"
       }
     },
+    variants: {
+      fill: ['hover', 'focus']
+    }
   },
   plugins: [],
 }
