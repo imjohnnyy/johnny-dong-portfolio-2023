@@ -4,13 +4,13 @@ import EmailIcon from "@mui/icons-material/Email";
 
 const Footer = () => {
   return (
-    <div className={"bg-gray flex items-center justify-between"}>
-      <div className={"flex items-center mx-auto w-1/2 "}>
+    <div className={"bg-gray flex items-center justify-between h-[130px]"}>
+      <div className={"flex items-center mx-auto w-1/2"}>
         <p className={"text-white text-lg font-bold"}>
           {" "}
           Copyright &copy; 2023 Johnny Dong
         </p>
-        <div className={"ml-[380px] float-right"}>
+        <div className={"ml-[500px] float-right"}>
           <LinkedInIcon
             onClick={() =>
               window.open("https://nz.linkedin.com/in/johnny-dong-", "_blank")
