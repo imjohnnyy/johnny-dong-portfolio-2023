@@ -22,8 +22,8 @@ const Home = () => {
 
   return (
     <div className={"bg-lightergray w-auto flex"}> 
-      <div className={`mx-auto w-3/6 items-center justify-center mt-[110px]`}>
-        <div className={"w-3/5 flex item-start mt-40 font-bold text-gray"}>
+      <div className={`mx-auto w-3/6 items-center justify-center mt-[110px] mb-[110px]`}>
+        <div className={"w-3/5 flex item-start mt-40 font-bold text-gray "}>
           <h1 className={"text-6xl text-left"}>Aspiring Software Engineer<img className={" ml-[270px] mt-[-50px] h-[60px] w-[60px]"} src={WavingEmoji} alt="Waving"></img></h1>
       
         </div>
