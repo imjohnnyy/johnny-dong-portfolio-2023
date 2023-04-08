@@ -78,6 +78,8 @@ const Home = () => {
         {/* Skills section */}
         {/* Front-End skills */}
         <h3 className={"text-xl font-semibold text-gray mt-[80px]"}>Front-End</h3>
+        <hr className={"my-6 mt-[5px] h-0.5 divide-x-4 border-t-0 bg-lightgray opacity-100 dark:opacity-50 mx-[12rem]"}></hr>
+
         <ul className="flex items-center justify-center mt-[10px]">
           <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white ">
             <img className={"w-[42px] h-[38px] ml-[11px] mt-[13px] bg-white -bottom-10 "} src={ReactIcon} alt="react_icon"></img>
@@ -101,7 +103,9 @@ const Home = () => {
        
 
         {/* Back-End skills*/}
-        <h3 className={"text-xl font-semibold text-gray"}>Back-End</h3>
+        <h3 className={"text-xl font-semibold text-gray mt-5"}>Back-End</h3>
+        <hr className={"my-6 mt-[5px] h-0.5 divide-x-4 border-t-0 bg-lightgray opacity-100 dark:opacity-50 mx-[12rem]"}></hr>
+
           <ul className="flex items-center justify-center mt-[10px]">
             <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white ">
               <img className={"w-[48px] h-[40px] ml-[8px] mt-[12px] bg-white -bottom-10 "} src={PHPIcon} alt="php_icon"></img>
