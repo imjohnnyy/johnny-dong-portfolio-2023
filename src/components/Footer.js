@@ -20,7 +20,7 @@ const Footer = () => {
               color: "white",
               margin: 15,
               marginLeft: -5,
-              marginTop: 24,
+              marginTop: 26,
               cursor: "pointer",
             }}
           />
@@ -40,11 +40,11 @@ const Footer = () => {
           <EmailIcon
             onClick={() => (window.location = "mailto:imjohnnydong@gmail.com")}
             style={{
-              fontSize: 45,
+              fontSize: 43,
               color: "white",
               margin: 15,
               marginLeft: -5,
-              marginTop: 26,
+              marginTop: 27,
               cursor: "pointer",
             }}
           />
