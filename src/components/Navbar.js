@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav>
       {/* Outer-most Div */}
       <div
-        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-7`}
+        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-7 md:text-4xl`}
       >
         <h3 className={"ml-8 font-roboto font-bold text-xl cursor-pointer text-gray"} >Johnny.dev</h3>
    
@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
             {/* RIGHT SIDE OF NAVBAR */}
-            <div className={`${flexBetween} w-full font-roboto font-medium text-lg mr-20 text-gray `}>
+            <div className={`${flexBetween} w-full font-roboto font-medium text-lg mr-20 text-gray items-center justify-center sm:invisible`}>
               <Link className={"hover:text-sky-600"}to="/">Home</Link>
               <Link className={"hover:text-sky-600"} to="/about">About</Link>
               <Link className={"hover:text-sky-600"} to="/projects">Projects</Link>
