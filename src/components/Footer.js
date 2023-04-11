@@ -23,6 +23,7 @@ const Footer = () => {
               marginTop: 26,
               cursor: "pointer",
             }}
+            className={"scale-75 hover:scale-100 ease-in duration-500"}
           />
           <GitHubIcon
             onClick={() =>
@@ -32,10 +33,11 @@ const Footer = () => {
               fontSize: 36,
               color: "white",
               margin: 15,
-              marginLeft: -5,
+              marginLeft: -10,
               marginTop: 26,
               cursor: "pointer",
             }}
+            className={"scale-75 hover:scale-100 ease-in duration-500"}
           />
           <EmailIcon
             onClick={() => (window.location = "mailto:imjohnnydong@gmail.com")}
@@ -43,10 +45,11 @@ const Footer = () => {
               fontSize: 43,
               color: "white",
               margin: 15,
-              marginLeft: -5,
+              marginLeft: -10,
               marginTop: 27,
               cursor: "pointer",
             }}
+            className={"scale-75 hover:scale-100 ease-in duration-500"}
           />
         </div>
       </div>

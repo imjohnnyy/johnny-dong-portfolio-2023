@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
             {/* RIGHT SIDE OF NAVBAR */}
-            <div className={`${flexBetween} w-full font-roboto font-medium text-lg mr-20 text-gray items-center justify-center sm:invisible`}>
+            <div className={`${flexBetween} w-full font-roboto font-medium text-lg text-gray md:mr-20 max-sm:invisible`}>
               <Link className={"hover:text-sky-600"}to="/">Home</Link>
               <Link className={"hover:text-sky-600"} to="/about">About</Link>
               <Link className={"hover:text-sky-600"} to="/projects">Projects</Link>
