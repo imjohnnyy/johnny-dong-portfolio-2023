@@ -1,7 +1,7 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import {useState, useEffect} from 'react'
+import { useState } from 'react'
 
 
 const Navbar = () => {
@@ -9,10 +9,6 @@ const Navbar = () => {
   const navbarBackground = "bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 shadow-md";
 
   const [isExpandNavbar, setIsExpandNavbar] = useState(false);
-  // const location = useLocation();
-
-  // Whenever the location changes, the Navbar will be closed, 
-  // and the contents of the page will be shown.
   
   const handleNav = () => {
     setIsExpandNavbar(!isExpandNavbar);
