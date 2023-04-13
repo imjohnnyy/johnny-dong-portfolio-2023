@@ -33,15 +33,16 @@ const Navbar = () => {
             </div>
 
             {/* Hamburger Icon and navigation option for smaller devices */}
-            <button className="block md:hidden py-3 px-4 mx-2 hover:bg-gray-200" onClick={handleNav}>
-              {isExpandNavbar ? <MenuIcon style={{fontSize: 35}} /> : <CloseIcon style={{fontSize: 35}} />}
-              <ul className={isExpandNavbar ? 'fixed left-0 top-0 w-[100%] h-full bg-white ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
-              <li><Link className={"hover:text-sky-600 py-4 px-4"}to="/">Home</Link></li>
-              <li><Link className={"hover:text-sky-600 py-4 px-4"} to="/about">About</Link></li>
-              <li><Link className={"hover:text-sky-600 py-4 px-4"} to="/projects">Projects</Link></li>
-              <li><Link className={"hover:text-sky-600 py-4 px-4"} to="/contact">Contact</Link></li>
+            <div className="block md:hidden py-3 px-4 mx-2 hover:bg-gray-200" onClick={handleNav}>
+              <MenuIcon style={{fontSize: 35}} />
+              <ul className={isExpandNavbar ? 'fixed left-0 top-0 w-[100%] h-full bg-white ease-in-out duration-500 flex flex-col items-center justify-center text-2xl text-gray font-semibold' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+                <div className={"flex ml-auto mr-12 mb-20 mt-[-120px]"}><CloseIcon style={{fontSize: 35}} /></div>
+                <li className={"py-5"}><Link className={"hover:text-sky-600"}to="/">Home</Link></li>
+                <li className={"py-5"}><Link className={"hover:text-sky-600"} to="/about">About</Link></li>
+                <li className={"py-5"}><Link className={"hover:text-sky-600"} to="/projects">Projects</Link></li>
+                <li className={"py-5"}><Link className={"hover:text-sky-600"} to="/contact">Contact</Link></li>
               </ul>
-            </button>
+            </div>
 
 
               
