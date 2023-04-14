@@ -4,13 +4,13 @@ import EmailIcon from "@mui/icons-material/Email";
 
 const Footer = () => {
   return (
-    <div className={"bg-gray flex items-center justify-between max-md:py-0 py-5 "}>
+    <div className={"bg-gray flex items-center justify-between max-md:h-[245px] max-md:py-0 py-5 "}>
       <div className={"flex items-center mx-auto max-lg:flex-col max-lg:w-2/3 max-lg:mt-auto"}>
         <p className={"text-white text-lg font-bold max-sm:mt-[3rem]"}>
 
           Copyright &copy; 2023 Johnny Dong
         </p>
-        <div className={"lg:ml-[500px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:h-8 max-lg:mt-8 max-lg:mb-10"}>
+        <div className={"lg:ml-[500px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:h-8 max-lg:mt-8 max-lg:mb-14 max-md:mt-10"}>
           <LinkedInIcon
             onClick={() =>
               window.open("https://nz.linkedin.com/in/johnny-dong-", "_blank")
@@ -20,10 +20,9 @@ const Footer = () => {
               color: "white",
               margin: 15,
               marginLeft: -5,
-              marginTop: 26,
               cursor: "pointer",
             }}
-            className={"scale-75 hover:scale-100 ease-in duration-500"}
+            className={"scale-75 hover:scale-100 ease-in duration-500 mt-[25px] max-md:mt-[-21px]"}
           />
           <GitHubIcon
             onClick={() =>
@@ -34,10 +33,9 @@ const Footer = () => {
               color: "white",
               margin: 15,
               marginLeft: -10,
-              marginTop: 26,
               cursor: "pointer",
             }}
-            className={"scale-75 hover:scale-100 ease-in duration-500"}
+            className={"scale-75 hover:scale-100 ease-in duration-500 mt-[25px] max-md:mt-[-21px]"}
           />
           <EmailIcon
             onClick={() => (window.location = "mailto:imjohnnydong@gmail.com")}
@@ -46,10 +44,9 @@ const Footer = () => {
               color: "white",
               margin: 15,
               marginLeft: -10,
-              marginTop: 27,
               cursor: "pointer",
             }}
-            className={"scale-75 hover:scale-100 ease-in duration-500"}
+            className={"scale-75 hover:scale-100 ease-in duration-500 mt-[25px] max-md:mt-[-20px]"}
           />
         </div>
       </div>
