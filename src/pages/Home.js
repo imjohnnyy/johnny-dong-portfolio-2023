@@ -24,10 +24,10 @@ const Home = () => {
     <div className={"bg-lightergray w-auto flex"}> 
       <div className={`mx-auto w-3/6 items-center justify-center mt-[110px] mb-[110px] max-md:w-[85%]`}>
         <div className={"w-3/5 flex item-start mt-40 font-bold text-gray max-md:w-[85%]"}>
-          <h1 className={"text-6xl text-left max-md:text-center max-md:justify-center] max-md:mt-[-300px]"}>Aspiring Software Engineer<img className={" ml-[270px] mt-[-50px] h-[60px] w-[60px]"} src={WavingEmoji} alt="Waving"></img></h1>
+          <h1 className={"text-6xl text-left max-md:flex max-md:text-center max-md:items-center max-md:text-4xl max-md:mt-[100px] max-md:mb-[-250px] max-md:ml-[60px] max-md:mr-[-60px]"}>Aspiring Software Engineer<img className={" ml-[270px] mt-[-50px] h-[60px] w-[60px] max-md:h-[40px] max-md:w-[40px] max-md:ml-[-55px] max-md:mt-[38px] max-md:mr-[59px]"} src={WavingEmoji} alt="Waving"></img></h1>
         </div>
         <div className={"flex items-end mt-[-150px] max-md:items-center max-md:justify-center max-md:mt-[-300px]"}>
-          <img className={"ml-[66%] w-[300px] h-[300px] max-md:ml-0 max-md:w-[250px] max-md:h-[250px] static"} src={ProfilePicture} alt="johnny_dong"></img>
+          <img className={"ml-[66%] w-[300px] h-[300px] max-md:ml-0 max-md:w-[250px] max-md:h-[240px] max-md:mt-[150px] max-md:mb-[400px] static"} src={ProfilePicture} alt="johnny_dong"></img>
         </div>
           <p className={"flex item-start text-lightgray w-2/4 ml-50 mr-20 mb-20 mt-[-120px] text-left text-lg font-semibold"}>
           Hi, I'm Johnny Dong. I'm an aspiring Software Engineer based in Auckland,
