@@ -80,23 +80,23 @@ const Home = () => {
         <hr className={"my-6 mt-[5px] h-0.5 divide-x-4 border-t-0 bg-lightgray opacity-90 dark:opacity-50 mx-[10rem]"}></hr>
 
         <ul className="flex items-center justify-center mt-[10px] max-md:flex-wrap">
-          <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white ">
-            <img className={"w-[42px] h-[38px] ml-[11px] mt-[13px] bg-white -bottom-10 "} src={ReactIcon} alt="react_icon"></img>
+          <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="React and React Native">
+            <img className={"w-[42px] h-[38px] ml-[11px] mt-[13px] bg-white -bottom-10 cursor-pointer"} src={ReactIcon} alt="react_icon" title="React and React Native"></img>
           </li>
-          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-            <img className={"w-[40px] h-[40px] ml-[12px] mt-[12px] bg-white"} src={JavaScriptIcon} alt="javascript_icon"></img>
+          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="JavaScript">
+            <img className={"w-[40px] h-[40px] ml-[12px] mt-[12px] bg-white cursor-pointer"} src={JavaScriptIcon} alt="javascript_icon" title="JavaScript"></img>
           </li>
-          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-            <img className={"w-[40px] h-[40px] ml-[12px] mt-[13px] bg-white"} src={HTMLIcon} alt="html_icon"></img>
+          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="HTML5">
+            <img className={"w-[40px] h-[40px] ml-[12px] mt-[13px] bg-white cursor-pointer"} src={HTMLIcon} alt="html_icon" title="HTML5"></img>
           </li>
-          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-            <img className={"w-[40px] h-[40px] ml-[14px] mt-[13px] bg-white"} src={CSSIcon} alt="css_icon"></img>
+          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="CSS3">
+            <img className={"w-[40px] h-[40px] ml-[13px] mt-[13px] bg-white cursor-pointer"} src={CSSIcon} alt="css_icon" title="CSS3"></img>
           </li>
-          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5">
-            <img className={"w-[40px] h-[40px] ml-[13px] mt-[12px] bg-white"} src={TailWindCSSIcon} alt="tailwind_css_icon"></img>
+          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5 cursor-pointer" title="Tailwind CSS">
+            <img className={"w-[40px] h-[40px] ml-[13px] mt-[12px] bg-white cursor-pointer"} src={TailWindCSSIcon} alt="tailwind_css_icon" title="Tailwind CSS"></img>
           </li>
-          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5 max-sm:mr-5">
-            <img className={"w-[46px] h-[40px] ml-[10px] mt-[10px] bg-white"} src={BootStrapIcon} alt="bootstrap_icon"></img>
+          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5 max-sm:mr-5 cursor-pointer" title="Bootstrap">
+            <img className={"w-[46px] h-[40px] ml-[10px] mt-[10px] bg-white cursor-pointer"} src={BootStrapIcon} alt="bootstrap_icon" title="Bootstrap"></img>
           </li>
           </ul>
        
@@ -106,23 +106,23 @@ const Home = () => {
         <hr className={"my-6 mt-[5px] h-0.5 divide-x-4 border-t-0 bg-lightgray opacity-90 dark:opacity-50 mx-[10rem]"}></hr>
 
           <ul className="flex items-center justify-center mt-[10px] max-md:flex-wrap">
-            <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-              <img className={"w-[48px] h-[42px] ml-[8px] mt-[12px] bg-white -bottom-10 "} src={PHPIcon} alt="php_icon"></img>
+            <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="PHP">
+              <img className={"w-[48px] h-[42px] ml-[8px] mt-[12px] bg-white -bottom-10 cursor-pointer "} src={PHPIcon} alt="php_icon" title="PHP"></img>
             </li>
-            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-              <img className={"w-[40px] h-[40px] ml-[12px] mt-[12px] bg-white"} src={NodeJSIcon} alt="nodejs_icon"></img>
+            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="Node.js">
+              <img className={"w-[40px] h-[40px] ml-[12px] mt-[12px] bg-white cursor-pointer"} src={NodeJSIcon} alt="nodejs_icon" title="Node.js"></img>
             </li>
-            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-              <img className={"w-[48px] h-[40px] ml-[8px] mt-[12px] bg-white"} src={ExpressJSIcon} alt="expressjs_icon"></img>
+            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="Express.js">
+              <img className={"w-[48px] h-[40px] ml-[8px] mt-[12px] bg-white cursor-pointer"} src={ExpressJSIcon} alt="expressjs_icon" title="Express.js"></img>
             </li>
-            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
-              <img className={"w-[48px] h-[40px] ml-[8px] mt-[12px] bg-white"} src={MongoDBIcon} alt="mongodb_icon"></img>
+            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white cursor-pointer" title="MongoDB">
+              <img className={"w-[48px] h-[40px] ml-[8px] mt-[12px] bg-white cursor-pointer"} src={MongoDBIcon} alt="mongodb_icon" title="MongoDB"></img>
             </li>
-            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5">
-              <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={MySQLIcon} alt="mysql_icon"></img>
+            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5 cursor-pointer" title="MySQL">
+              <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white cursor-pointer"} src={MySQLIcon} alt="mysql_icon" title="MySQL"></img>
             </li>
-            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5 max-sm:mr-5">
-              <img className={"w-[46px] h-[40px] ml-[10px] mt-[10px] bg-white"} src={FirebaseIcon} alt="firebase_icon"></img>
+            <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white max-sm:mt-5 max-sm:mr-5 cursor-pointer" title="Firebase">
+              <img className={"w-[46px] h-[40px] ml-[10px] mt-[10px] bg-white cursor-pointer"} src={FirebaseIcon} alt="firebase_icon" title="Firebase"></img>
             </li>
             
           </ul>
