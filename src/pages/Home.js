@@ -29,13 +29,13 @@ const Home = () => {
         <div className={"flex items-end mt-[-150px] max-md:items-center max-md:justify-center max-md:mt-[-300px]"}>
           <img className={"ml-[66%] w-[300px] h-[300px] max-md:ml-0 max-md:w-[250px] max-md:h-[240px] max-md:mt-[150px] max-md:mb-[400px] static"} src={ProfilePicture} alt="johnny_dong"></img>
         </div>
-          <p className={"flex item-start text-lightgray w-2/4 ml-50 mr-20 mb-20 mt-[-120px] text-left text-lg font-semibold"}>
+          <p className={"flex item-start text-lightgray w-2/4 ml-50 mr-20 mb-20 mt-[-120px] text-left text-lg font-semibold max-md:text-center max-md:w-[80%] max-md:mx-[2.4rem] max-md:mb-[150px] max-md:mt-[-250px]"}>
           Hi, I'm Johnny Dong. I'm an aspiring Software Engineer based in Auckland,
           New Zealand.  </p>
-          <div className={"w-1/6 ml-[205px] mt-[-110px]"}>
+          <div className={"w-1/6 ml-[205px] mt-[-110px] max-md:mt-[-180px] max-md:ml-[240px]"}>
             <LocationOnIcon style={ {color: '#ef4444'}} />
           </div>
-        <div className={"flex item-start w-1/5"}>
+        <div className={"flex item-start w-1/5 max-md:w-[50%] max-md:justify-center max-md:ml-[105px] max-md:mt-[10px]"}>
           <LinkedInIcon
               onClick={() => window.open('https://nz.linkedin.com/in/johnny-dong-', '_blank')}
               style={{
