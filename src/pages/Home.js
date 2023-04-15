@@ -4,18 +4,18 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import ReactIcon from "../assets/images/React_Icon.png"
-import JavaScriptIcon from "../assets/images/JavaScript_Icon.png"
-import HTMLIcon from "../assets/images/html_icon.png"
-import CSSIcon from "../assets/images/css_icon.png"
-import TailWindCSSIcon from "../assets/images/tailwind_css_icon.png"
-import BootStrapIcon from "../assets/images/bootstrap-icon.png"
-import ExpressJSIcon from "../assets/images/expressjs_icon.png"
-import NodeJSIcon from "../assets/images/nodejs_icon.png"
-import MongoDBIcon from "../assets/images/mongodb_icon.png"
-import MySQLIcon from "../assets/images/mysql_icon.png"
-import PHPIcon from "../assets/images/php_icon.png"
-import FirebaseIcon from "../assets/images/firebase_icon.png"
+import ReactIcon from "../assets/images/react_icon.svg"
+import JavaScriptIcon from "../assets/images/javascript_icon.svg"
+import HTMLIcon from "../assets/images/html_icon.svg"
+import CSSIcon from "../assets/images/css_icon.svg"
+import TailWindCSSIcon from "../assets/images/tailwind_css_icon.svg"
+import BootStrapIcon from "../assets/images/bootstrap_icon.svg"
+import ExpressJSIcon from "../assets/images/expressjs_icon.svg"
+import NodeJSIcon from "../assets/images/nodejs_icon.svg"
+import MongoDBIcon from "../assets/images/mongodb_icon.svg"
+import MySQLIcon from "../assets/images/mysql_icon.svg"
+import PHPIcon from "../assets/images/php_icon.svg"
+import FirebaseIcon from "../assets/images/firebase_icon.svg"
 
 
 const Home = () => {
@@ -92,7 +92,7 @@ const Home = () => {
           <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
             <img className={"w-[36px] h-[40px] ml-[14px] mt-[13px] bg-white"} src={CSSIcon} alt="css_icon"></img>
           </li>
-          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
+          <li className="ml-5 border-2 border-indigo-500 rounded-full w-[34px] h-[20px] bg-white">
             <img className={"w-[46px] h-[40px] ml-[8px] mt-[10px] bg-white"} src={TailWindCSSIcon} alt="tailwind_css_icon"></img>
           </li>
           <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
@@ -106,7 +106,7 @@ const Home = () => {
         <hr className={"my-6 mt-[5px] h-0.5 divide-x-4 border-t-0 bg-lightgray opacity-90 dark:opacity-50 mx-[10rem]"}></hr>
 
           <ul className="flex items-center justify-center mt-[10px]">
-            <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white ">
+            <li className="border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
               <img className={"w-[48px] h-[40px] ml-[8px] mt-[12px] bg-white -bottom-10 "} src={PHPIcon} alt="php_icon"></img>
             </li>
             <li className="ml-5 border-2 border-indigo-500 rounded-full w-[68px] h-[68px] bg-white">
