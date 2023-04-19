@@ -1,19 +1,15 @@
 const About = () => {
   return (
-    <div className="bg-white w-auto flex">
-      <h2 className="font-black text-lg text-blue-500 w-1/2 ml-[10rem]">
-        IMAGE PLACEHOLDER
-      </h2>
-      <div className="flex flex-col items-start text-left w-3/6 mr-[10rem]">
+    <div className="bg-white w-auto flex items-center justify-center my-[10rem]">
+      <div className="flex flex-col items-start text-left w-2/6">
         <h2 className="font-black text-lg text-blue-500 w-1/2 ">ABOUT ME</h2>
         <h3 className="font-bold text-2xl mt-2 ">
           A recent Computer Science and Software Development Graduate 🎓
         </h3>
-        <p className="font-semibold text-lg text-lightgray mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut
-          asperiores, facilis, provident nihil accusantium dolorum nam
-          voluptates eum ipsum odio modi repellendus ullam blanditiis quos
-          itaque, ab obcaecati culpa!
+        <p className="font-semibold text-lg text-lightgray mt-5">
+        As an aspiring Software Engineer, I'm passionate about developing software solutions that solve complex problems.
+        I possess an impressive arsenal of skills in Full-Stack web and mobile application development. 
+        Furthermore, I am familiar with Agile Scrum methodology and have experience working in Agile Scrum teams.
         </p>
       </div>
     </div>
