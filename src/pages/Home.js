@@ -21,7 +21,7 @@ import FirebaseIcon from "../assets/images/firebase_icon.svg"
 const Home = () => {
 
   return (
-    <div className={"bg-lightergray w-auto flex"}> 
+    <div className={"bg-lightergray w-auto flex"} id="home"> 
       <div className={`mx-auto w-3/6 items-center justify-center mt-[110px] mb-[110px] max-md:w-[85%]`}>
         <div className={"w-3/5 flex item-start mt-40 font-bold text-gray max-md:w-[85%]"}>
         <h1 className={"text-6xl text-left max-md:flex max-md:text-center max-md:items-center max-md:text-4xl max-md:mt-[100px] max-md:mb-[-250px] max-md:ml-[60px] max-md:mr-[-60px]"}>Aspiring Software Engineer<img className={" ml-[270px] mt-[-50px] h-[60px] w-[60px] max-md:h-[40px] max-md:w-[40px] max-md:ml-[-55px] max-md:mt-[38px] max-md:mr-[59px]"} src={WavingEmoji} alt="Waving"></img></h1>

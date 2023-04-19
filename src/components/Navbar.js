@@ -22,10 +22,10 @@ const Navbar = () => {
 
             {/* RIGHT SIDE OF NAVBAR */}
             <div className={"hidden md:flex items-center justify-between font-roboto font-medium text-lg text-gray pr-10"}>
-              <Link className={"hover:text-sky-600 py-4 px-4"}to="/">Home</Link>
-              <Link className={"hover:text-sky-600 py-4 px-4"} to="/about">About</Link>
-              <Link className={"hover:text-sky-600 py-4 px-4"} to="/projects">Projects</Link>
-              <Link className={"hover:text-sky-600 py-4 px-4"} to="/contact">Contact</Link>
+              <a href="#home" className={"hover:text-sky-600 py-4 px-4"}>Home</a>
+              <a href="#about" className={"hover:text-sky-600 py-4 px-4"} to="/about">About</a>
+              <a href="#projects" className={"hover:text-sky-600 py-4 px-4"} to="/projects">Projects</a>
+              <a href="#contact" className={"hover:text-sky-600 py-4 px-4"} to="/contact">Contact</a>
             </div>
 
             {/* Hamburger Icon and navigation option for smaller devices */}
@@ -33,10 +33,10 @@ const Navbar = () => {
               <MenuIcon style={{fontSize: 35}} />
               <ul className={isExpandNavbar ? 'fixed left-0 top-0 w-[100%] h-full bg-white ease-in-out duration-500 flex flex-col items-center justify-center text-2xl text-gray font-semibold' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                 <div className={"flex ml-auto mr-12 mb-20 mt-[-120px]"}><CloseIcon style={{fontSize: 35}} /></div>
-                <li className={"py-5"}><Link className={"hover:text-sky-600"}to="/">Home</Link></li>
-                <li className={"py-5"}><Link className={"hover:text-sky-600"} to="/about">About</Link></li>
-                <li className={"py-5"}><Link className={"hover:text-sky-600"} to="/projects">Projects</Link></li>
-                <li className={"py-5"}><Link className={"hover:text-sky-600"} to="/contact">Contact</Link></li>
+                <li className={"py-5"}><a href="home" className={"hover:text-sky-600"}>Home</a></li>
+                <li className={"py-5"}><a href="#about" className={"hover:text-sky-600"}>About</a></li>
+                <li className={"py-5"}><a href="#projects" className={"hover:text-sky-600"}>Projects</a></li>
+                <li className={"py-5"}><a href="#contact" className={"hover:text-sky-600"}>Contact</a></li>
               </ul>
             </div>
 

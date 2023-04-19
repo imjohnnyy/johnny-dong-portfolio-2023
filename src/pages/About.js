@@ -1,6 +1,7 @@
 const About = () => {
+
   return (
-    <div className="bg-white w-auto flex items-center justify-center mx-auto my-[8rem]">
+    <div className="bg-white w-auto flex items-center justify-center mx-auto my-[6rem]" id="about">
       <div className="flex flex-col items-start text-left w-2/6  max-md:w-[90%]">
         <h2 className="font-black text-lg text-blue-500 w-1/2 max-lg:text-center max-lg:mx-auto">ABOUT ME</h2>
         <h3 className="font-bold text-2xl mt-2 max-md:text-center max-md:justify-center">
@@ -14,6 +15,7 @@ const About = () => {
       </div>
     </div>
   );
+  
 };
 
 export default About;
