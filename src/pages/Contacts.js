@@ -12,7 +12,7 @@ const Contacts = () => {
             </h3>
 
             {/* Circle with Icon */}
-            <div className="flex flex-row mt-8">
+            <div className="flex flex-row mt-12">
                 <div className="flex w-1/2">
                     <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
                         <MapIcon style={{fontSize: 42, color: "#3b82f6", }}/>
