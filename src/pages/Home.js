@@ -38,11 +38,9 @@ const Home = () => {
               style={{
                 fontSize: 40,
                 color: "#2d2e32",
-                margin: 15,
-                marginTop: 24,
                 cursor: "pointer",
               }}
-              className={"hover:fill-sky-600 ml-[-5px] max-lg:ml-3"}
+              className={"hover:fill-sky-600 m-[15px] ml-[-5px] mt-[24px] max-lg:ml-3"}
             />
           <GitHubIcon
               onClick={() => window.open('https://github.com/imjohnnyy', '_blank')}
