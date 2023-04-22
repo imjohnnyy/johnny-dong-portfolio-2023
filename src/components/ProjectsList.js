@@ -12,7 +12,7 @@ export const ProjectList = [
       skills: [" JavaScript, ", "PHP, ", "MySQL, ", "Bootstrap, ", "jQuery, ", "HTML, ", "CSS "],
     },
     {
-      name: "Software Practice Empirical Evidence Database (SPEED)",
+      name: "SPEED",
       image: SPEED,
       description: "SPEED is a MERN Stack web app where users are able to add, view, and filter articles. This app was worked on by a team of 3. The Agile Scrum methodology along with a mob programming approach were utilized throughout the development of this app.",
       projectLocation: "https://github.com/imjohnnyy/CISE_SPEED",
