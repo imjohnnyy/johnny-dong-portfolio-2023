@@ -3,10 +3,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const ProjectItem = ({name, image, description, projectLocation, skills}) => {
 
   return (
-    <div className={"flex rounded-lg w-[1000px] h-[500px] m-[40px] focus:shadow-outline shadow-lg"}>
+    <div className={"flex items-center justify-center rounded-lg w-[1200px] h-[500px] m-[40px] focus:shadow-outline shadow-lg"}>
         {/* LEFT SIDE OF PROJECT ITEM */}
         <div className="flex">
-            <img src={image} className={"w-auto h-[250px]"} alt="projectImage"></img>
+            <img src={image} className={"w-[45rem] h-[20rem] ml-5 rounded-xl  shadow-2xl"} alt="website"></img>
         </div>
         {/* RIGHT SIDE OF PROJECT ITEM */}
         <div className="flex flex-col items-center ml-[4rem] mx-[3rem] my-[2rem] w-1/2">
