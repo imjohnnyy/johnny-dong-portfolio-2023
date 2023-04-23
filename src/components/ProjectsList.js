@@ -29,7 +29,7 @@ export const ProjectList = [
       name: "This Portfolio Website 👦🏻",
       image: PortfolioApp ,
       description: "This is a web app that allows me to provide information about myself such as: my career goal, my technical skills, some ways to contact me, along with showcasing some of the projects that I have completed. ", 
-      projectLocation: "https://github.com/imjohnnyy/personal-portfolio-website",
+      projectLocation: "https://github.com/imjohnnyy/johnny-dong-portfolio-2023",
       skills: [" React, ", "Tailwind CSS, ", "Material UI"]
     },
   
