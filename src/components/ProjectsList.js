@@ -7,7 +7,7 @@ export const ProjectList = [
     {
       name: "CabsPro 🚖",
       image: CabsPro,
-      description: "CabsPro is a web application that allows users to book taxis online. This app allows for CRUD functionalities, where a booking record can be created and is stored in the MySQL database. The booking records can be retrieved, displayed, updated, and deleted from the database and the app. AJAX is also another functionality where the records of the booking can be updated without the need to refresh the webpage. ",
+      description: "CabsPro is a web application that allows users to book taxis online. Booking records can be retrieved, displayed, updated, and deleted (CRUD) from the database and the app. AJAX is also another functionality where the booking records can be updated without needing to refresh the webpage. ",
       projectLocation: "https://github.com/imjohnnyy/CabsPro",
       skills: [" JavaScript, ", "PHP, ", "MySQL, ", "Bootstrap, ", "jQuery, ", "HTML, ", "CSS "],
     },
