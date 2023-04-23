@@ -15,7 +15,7 @@ const ProjectItem = ({name, image, description, projectLocation, skills}) => {
             <p className={"font-bold text-gray text-center max-lg:my-2"}>{skills}</p>
             <button
                onClick={() => window.open(`${projectLocation}`)}
-               className={"flex items-center mt-5 font-bold text-white text-lg border-[1px] rounded-md bg-gray py-2 px-2 hover:fill-sky-600"}>
+               className={"flex items-center mt-5 font-bold text-white text-lg border-[1px] rounded-md bg-gray py-2 px-2 hover:bg-sky-600"}>
                Source Code <GitHubIcon className={"ml-1"}/>
             </button>
         </div>
