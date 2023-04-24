@@ -6,7 +6,7 @@ const ProjectItem = ({name, image, description, projectLocation, skills}) => {
     <div className={"flex mx-auto items-center justify-center rounded-2xl shadow-[0_0px_10px_rgba(0,0,0,0.25)] w-[950px] h-[500px] m-[40px] max-lg:flex-col max-lg:w-[auto] max-lg:h-[850px]"}>
         {/* LEFT SIDE OF PROJECT ITEM */}
         <div className="flex max-lg:w-auto max-lg:items-center max-lg:justify-center">
-            <img src={image} className={"w-[45rem] h-[20rem] ml-5 rounded-2xl shadow-2xl max-lg:ml-0 max-lg:h-[100%] max-lg:w-[92.5%]"} alt="website"></img>
+            <img src={image} className={"w-[45rem] h-[20rem] ml-5 rounded-2xl shadow-2xl max-lg:ml-0 max-lg:h-[20rem] max-lg:w-[95%]"} alt="website"></img>
         </div>
         {/* RIGHT SIDE OF PROJECT ITEM */}
         <div className="flex flex-col items-center ml-[4rem] mx-[3rem] my-[2rem] w-1/2 max-lg:w-auto max-lg:mr-[4rem] max-lg:text-center">
