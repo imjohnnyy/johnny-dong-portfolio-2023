@@ -29,7 +29,9 @@ const Contacts = () => {
                     </div>
                     <div className="mx-6 my-4">
                         <h2 className="text-gray font-bold text-lg max-lg:text-center max-lg:mx-auto">Email</h2>
-                        <p className="text-lightgray font-medium text-medium whitespace-nowrap max-lg:text-center max-lg:mx-auto max-lg:mb-10">imjohnnydong@gmail.com</p>
+                        <p onClick={() => (window.location = "mailto:imjohnnydong@gmail.com")}
+                           className="text-lightgray font-medium text-medium whitespace-nowrap max-lg:text-center
+                            max-lg:mx-auto max-lg:mb-10 hover:text-sky-500 cursor-pointer">imjohnnydong@gmail.com</p>
                     </div>
                 </div>
 
