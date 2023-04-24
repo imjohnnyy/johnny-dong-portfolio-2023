@@ -21,14 +21,14 @@ export const ProjectList = [
     {
       name: "SPEED 📰",
       image: SPEED,
-      description: "SPEED is a MERN Stack web app where users are able to add, view, and filter articles. This app was worked on by a team of 3. The Agile Scrum methodology along with a mob programming approach were utilized throughout the development of this app.",
+      description: "SPEED is a MERN Stack web app where users are able to add, view, and filter articles. The Agile Scrum methodology along with a mob programming approach were utilized throughout the development of this app.",
       projectLocation: "https://github.com/imjohnnyy/CISE_SPEED",
       skills: [" React, ", "Node.js, ", "Express.js, ", "MongoDB"]
     },
     {
       name: "This Portfolio Website 👦🏻",
       image: PortfolioApp ,
-      description: "This is a web app that allows me to provide information about myself such as: my career goal, my technical skills, some ways to contact me, along with showcasing some of the projects that I have completed. ", 
+      description: "This is a web app that allows me to provide information about myself such as: my career goal, my technical skills, ways to contact me, along with showcasing some of the projects that I had completed. ", 
       projectLocation: "https://github.com/imjohnnyy/johnny-dong-portfolio-2023",
       skills: [" React, ", "Tailwind CSS, ", "Material UI"]
     },
