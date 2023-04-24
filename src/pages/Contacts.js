@@ -14,7 +14,7 @@ const Contacts = () => {
             {/* Circle with Icon */}
             <div className="flex flex-row mt-12 max-md:flex-col max-lg:items-center max-lg:justify-center max-lg:mx-auto">
                 <div className="flex w-1/2 max-lg:flex-col max-lg:items-center">
-                    <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_0px_10px_rgba(0,0,0,0.25)]">
                         <MapIcon style={{fontSize: 42, color: "#3b82f6", }}/>
                     </div>
                     <div className="mx-6 my-4 ">
@@ -24,7 +24,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex w-1/2 max-lg:flex-col max-lg:items-center">
-                    <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_0px_10px_rgba(0,0,0,0.25)]">
                         <EmailIcon style={{fontSize: 40, color: "#3b82f6", }}/>
                     </div>
                     <div className="mx-6 my-4">
@@ -34,7 +34,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex w-1/2 max-lg:flex-col max-lg:items-center">
-                    <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
+                    <div class="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_0px_10px_rgba(0,0,0,0.25)]">
                         <CallIcon style={{fontSize: 40, color: "#3b82f6", }}/>
                     </div>
                     <div className="mx-6 my-4">
