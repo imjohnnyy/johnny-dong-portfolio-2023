@@ -8,3 +8,4 @@ Click [https://johnnydong.me/](https://johnnydong.me/) to view it in your browse
 
 ## Feature(s) to add:
 - Light / Dark theme switcher
+- Transition effects
