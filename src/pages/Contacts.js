@@ -4,10 +4,10 @@ import EmailIcon from "@mui/icons-material/Email";
 
 const Contacts = () => {
     return (
-        <div className="bg-white w-auto flex items-center justify-center mx-auto" id="contact">
+        <div className="flex items-center justify-center w-auto mx-auto bg-lightergray" id="contact">
           <div className="flex flex-col items-start text-left w-2/8 mx-8 my-[6rem] max-lg:w-[90%]">
-            <h2 className="font-black text-lg text-blue-500 w-1/2 max-lg:text-center max-lg:mx-auto">CONTACT</h2>
-            <h3 className="font-bold text-gray text-2xl mt-2 max-lg:justify-center max-lg:text-center max-lg:mx-auto">
+            <h2 className="w-1/2 text-lg font-black text-blue-500 max-lg:text-center max-lg:mx-auto">CONTACT</h2>
+            <h3 className="mt-2 text-2xl font-bold text-gray max-lg:justify-center max-lg:text-center max-lg:mx-auto">
               Get in touch with me! 👇
             </h3>
 
@@ -18,8 +18,8 @@ const Contacts = () => {
                         <MapIcon style={{fontSize: 42, color: "#3b82f6", }}/>
                     </div>
                     <div className="mx-6 my-4 ">
-                        <h2 className="text-gray font-bold text-lg max-lg:text-center max-lg:mx-auto">Location</h2>
-                        <p className="text-lightgray font-medium text-medium whitespace-nowrap max-lg:text-center max-lg:mx-auto max-lg:mb-10">Auckland, New Zealand</p>
+                        <h2 className="text-lg font-bold text-gray max-lg:text-center max-lg:mx-auto">Location</h2>
+                        <p className="font-medium text-lightgray text-medium whitespace-nowrap max-lg:text-center max-lg:mx-auto max-lg:mb-10">Auckland, New Zealand</p>
                     </div>
                 </div>
 
@@ -28,10 +28,9 @@ const Contacts = () => {
                         <EmailIcon style={{fontSize: 40, color: "#3b82f6", }}/>
                     </div>
                     <div className="mx-6 my-4">
-                        <h2 className="text-gray font-bold text-lg max-lg:text-center max-lg:mx-auto">Email</h2>
+                        <h2 className="text-lg font-bold text-gray max-lg:text-center max-lg:mx-auto">Email</h2>
                         <p onClick={() => (window.location = "mailto:imjohnnydong@gmail.com")}
-                           className="text-lightgray font-medium text-medium whitespace-nowrap max-lg:text-center
-                            max-lg:mx-auto max-lg:mb-10 hover:text-sky-500 cursor-pointer">imjohnnydong@gmail.com</p>
+                           className="font-medium cursor-pointer text-lightgray text-medium whitespace-nowrap max-lg:text-center max-lg:mx-auto max-lg:mb-10 hover:text-sky-500">imjohnnydong@gmail.com</p>
                     </div>
                 </div>
 
@@ -40,8 +39,8 @@ const Contacts = () => {
                         <CallIcon style={{fontSize: 40, color: "#3b82f6", }}/>
                     </div>
                     <div className="mx-6 my-4">
-                        <h2 className="text-gray font-bold text-lg max-lg:text-center max-lg:mx-auto">Phone</h2>
-                        <p className="text-lightgray font-medium text-medium whitespace-nowrap max-lg:content-center max-lg:mx-auto max-lg:mb-10">(+64) 022 650 2893</p>
+                        <h2 className="text-lg font-bold text-gray max-lg:text-center max-lg:mx-auto">Phone</h2>
+                        <p className="font-medium text-lightgray text-medium whitespace-nowrap max-lg:content-center max-lg:mx-auto max-lg:mb-10">(+64) 022 650 2893</p>
                     </div>
                 </div>
 

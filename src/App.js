@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contacts from "./pages/Contacts";
 import Projects from "./pages/Projects"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Experience from "./pages/Experience";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Experience />
         <Projects />
         <Contacts />
         <Footer />
