@@ -5,3 +5,7 @@ This is a web app that allows me to provide information about myself such as: my
 **Technologies used are: &nbsp;&nbsp;React, &nbsp;Tailwind CSS, &nbsp;Material UI**
 
 Click [https://johnnydong.me/](https://johnnydong.me/) to view it in your browser.
+
+## Feature(s) to add:
+- Light / Dark theme switcher
+- Transition effects
