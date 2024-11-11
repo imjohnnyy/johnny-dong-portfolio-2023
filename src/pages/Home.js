@@ -22,14 +22,13 @@ const Home = () => {
     <div className={"bg-lightergray w-auto flex"} id="home"> 
       <div className={`mx-auto w-3/6 items-center justify-center mt-[110px] mb-[110px] max-lg:w-[85%]`}>
         <div className={"w-3/5 flex item-start mt-40 font-bold text-gray max-lg:w-full"}>
-        <h1 className={"text-6xl text-left max-lg:flex max-lg:text-center max-lg:items-center max-lg:text-4xl max-lg:mt-[100px] max-lg:mb-[-250px] max-lg:mx-auto"}>Aspiring Software Engineer</h1>
+        <h1 className={"text-6xl text-left max-lg:flex max-lg:text-center max-lg:items-center max-lg:text-4xl max-lg:mt-[100px] max-lg:mb-[-250px] max-lg:mx-auto"}>Software Developer</h1>
         </div>
         <div className={"flex items-end mt-[-150px] max-lg:items-center max-lg:justify-center max-lg:mt-[-300px]"}>
           <img className={"ml-[66%] w-[300px] h-[300px] max-lg:ml-0 max-lg:w-[250px] max-lg:h-[240px] max-lg:mt-[150px] max-lg:mb-[400px] static"} src={ProfilePicture} alt="johnny_dong"></img>
         </div>
           <p className={"text-lightgray w-1/2 mb-5 mt-[-120px] text-left text-lg font-semibold max-lg:flex max-lg:text-center max-lg:mx-auto max-lg:w-2/3 max-lg:mb-[10px] max-lg:mt-[-250px]"}>
-          👋 Hi, I'm Johnny Dong. I'm an aspiring Software Engineer based in Auckland,
-          New Zealand. 📍 </p>
+          👋 Hi there, I'm Johnny Dong, a software developer based in Auckland, New Zealand. 📍 </p>
         <div className={"flex items-start max-lg:mx-auto max-lg:content-center max-lg:justify-center max-lg:mt-[10px]"}>
           <LinkedInIcon
               onClick={() => window.open('https://nz.linkedin.com/in/johnny-dong-', '_blank')}
