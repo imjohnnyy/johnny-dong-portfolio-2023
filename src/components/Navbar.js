@@ -23,8 +23,8 @@ const Navbar = () => {
             {/* RIGHT SIDE OF NAVBAR */}
             <div className={"hidden md:flex items-center justify-between font-roboto font-medium text-lg text-gray pr-10"}>
               <a href="#home" className={"hover:text-sky-500 py-4 px-4"}>Home</a>
-              <a href="#experience" className={"hover:text-sky-500 py-4 px-4"} to="/experience">Experience</a>
               <a href="#about" className={"hover:text-sky-500 py-4 px-4"} to="/about">About</a>
+              <a href="#experience" className={"hover:text-sky-500 py-4 px-4"} to="/experience">Experience</a>
               <a href="#projects" className={"hover:text-sky-500 py-4 px-4"} to="/projects">Projects</a>
               <a href="#contact" className={"hover:text-sky-500 py-4 px-4"} to="/contact">Contact</a>
             </div>

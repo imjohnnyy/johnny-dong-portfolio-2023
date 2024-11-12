@@ -43,6 +43,7 @@ const Contacts = () => {
                         <p className="font-medium text-lightgray text-medium whitespace-nowrap max-lg:content-center max-lg:mx-auto max-lg:mb-10">(+64) 022 650 2893</p>
                     </div>
                 </div>
+                
 
             </div>
           </div>
